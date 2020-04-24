@@ -21,7 +21,7 @@ public class Rectangle {
 
     public void render(Graphics graphics) {
         graphics.drawRect(this.x, this.y, 10,10);
-        graphics.setColor(Color.red);
+        graphics.setColor(Color.magenta);
     }
 
     public void update(int delta) {

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/va/games/firstgame/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/va/games/firstgame/ObjectsGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/va/games/firstgame/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/va/games/firstgame/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/va/games/firstgame/Circle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +21,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YTQfL2MEkLFTDMSD3qqivUvMBV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -126,7 +124,19 @@
       <option name="presentableId" value="Default" />
       <updated>1582964206231</updated>
     </task>
+    <task id="LOCAL-00001" summary="added Rectangle and Circle class">
+      <created>1587756322615</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587756322615</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added Rectangle and Circle class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Rectangle and Circle class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2930" y="455" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1587745651109">
@@ -146,33 +156,37 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1036" y="404" key="#xdebugger.evaluate/0.0.2560.1400@0.0.2560.1400" timestamp="1585339406554" />
+    <state x="2827" y="268" key="CommitChangelistDialog2" timestamp="1587756321949">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2827" y="268" key="CommitChangelistDialog2/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587756321949" />
     <state x="369" y="83" key="FileChooserDialogImpl" timestamp="1582964295956">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="369" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582964295956" />
-    <state width="2517" height="142" key="GridCell.Tab.0.bottom" timestamp="1587756126765">
+    <state width="2517" height="142" key="GridCell.Tab.0.bottom" timestamp="1587756989870">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582964309398" />
-    <state width="2517" height="142" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587756126765" />
+    <state width="2517" height="142" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587756989870" />
     <state width="2517" height="283" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1585384876138" />
-    <state width="2517" height="142" key="GridCell.Tab.0.center" timestamp="1587756126765">
+    <state width="2517" height="142" key="GridCell.Tab.0.center" timestamp="1587756989869">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582964309397" />
-    <state width="2517" height="142" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587756126765" />
+    <state width="2517" height="142" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587756989869" />
     <state width="2517" height="283" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1585384876138" />
-    <state width="2517" height="142" key="GridCell.Tab.0.left" timestamp="1587756126765">
+    <state width="2517" height="142" key="GridCell.Tab.0.left" timestamp="1587756989869">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582964309397" />
-    <state width="2517" height="142" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587756126765" />
+    <state width="2517" height="142" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587756989869" />
     <state width="2517" height="283" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1585384876138" />
-    <state width="2517" height="142" key="GridCell.Tab.0.right" timestamp="1587756126765">
+    <state width="2517" height="142" key="GridCell.Tab.0.right" timestamp="1587756989870">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582964309398" />
-    <state width="2517" height="142" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587756126765" />
+    <state width="2517" height="142" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587756989870" />
     <state width="2517" height="283" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1585384876138" />
     <state width="2517" height="482" key="GridCell.Tab.1.bottom" timestamp="1587749491107">
       <screen x="1920" y="0" width="2560" height="1400" />
@@ -198,11 +212,19 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1582964302246" />
+    <state x="2792" y="433" key="Vcs.Push.Dialog.v2" timestamp="1587756324775">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2792" y="433" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587756324775" />
     <state x="2897" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1587410867948">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state x="2897" y="525" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587410867948" />
     <state x="977" y="525" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1585382772442" />
+    <state x="3009" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587756279319">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3009" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587756279319" />
     <state x="2651" y="321" key="new project wizard" timestamp="1587745072652">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>

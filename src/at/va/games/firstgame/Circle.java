@@ -21,7 +21,12 @@ public class Circle  {
     public void render(Graphics graphics) {
 
         graphics.drawOval(this.x, this.y, this.diameter,this.diameter);
-        graphics.setColor(Color.green);
+        Random rand = new Random();
+        float r = rand.nextFloat();
+        float g = rand.nextFloat();
+        float b = rand.nextFloat();
+        Color randomColor = new Color(r, g, b);
+        graphics.setColor(randomColor);
     }
 
     public void update(int delta) {

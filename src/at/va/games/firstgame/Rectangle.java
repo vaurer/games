@@ -29,12 +29,13 @@ public class Rectangle implements Actor {
             if (this.x > 1920) {
                 this.x = 0;
             }
-        }else if (this.direction == DIRECTION.LEFT){
+        } else if (this.direction == DIRECTION.LEFT) {
             this.x -= (float) delta / this.speed;
             if (this.x < 0) {
                 this.x = 1920;
             }
+        }
     }
-}}
+}
 
 

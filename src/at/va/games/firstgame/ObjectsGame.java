@@ -27,7 +27,7 @@ public class ObjectsGame extends BasicGame {
             Circle circle = new Circle();
             this.actors.add(circle);
         }
-        for (int i = 0; i <10 ; i++) {
+        for (int i = 0; i < 10; i++) {
             Ellipse ellipse = new Ellipse();
             this.actors.add(ellipse);
         }

@@ -5,17 +5,17 @@ import org.newdawn.slick.Graphics;
 
 import java.util.Random;
 
-public class Ellipse implements Actor{
-    private float x,y, speed;
-    private  float width, height;
+public class Ellipse implements Actor {
+    private float x, y, speed;
+    private float width, height;
     private int diameter;
 
-    public Ellipse(){
+    public Ellipse() {
         Random random = new Random();
         this.x = random.nextInt(1920);
         this.y = random.nextInt(1080);
-        this.width = random.nextInt(60)+10;
-        this.height = this.width/2;
+        this.width = random.nextInt(60) + 10;
+        this.height = this.width / 2;
         this.speed = random.nextInt(100);
 
     }

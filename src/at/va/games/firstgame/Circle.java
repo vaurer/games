@@ -6,7 +6,7 @@ import org.newdawn.slick.Graphics;
 import java.awt.*;
 import java.util.Random;
 
-public class Circle  {
+public class Circle implements Actor{
     private float x,y, speed;
     private int diameter;
 
@@ -21,12 +21,16 @@ public class Circle  {
     public void render(Graphics graphics) {
 
         graphics.drawOval(this.x, this.y, this.diameter,this.diameter);
-        Random rand = new Random();
-        float r = rand.nextFloat();
-        float g = rand.nextFloat();
-        float b = rand.nextFloat();
+        Random random = new Random();
+        float r = random.nextFloat();
+        float g = random.nextFloat();
+        float b = random.nextFloat();
         Color randomColor = new Color(r, g, b);
         graphics.setColor(randomColor);
+        this.diameter++;
+        if (this.diameter>600){
+            this.diameter=1;
+        }
     }
 
     public void update(int delta) {

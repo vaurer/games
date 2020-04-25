@@ -1,4 +1,4 @@
-package at.va.games.firstgame;
+package at.va.games.firstGame;
 
 import org.newdawn.slick.*;
 

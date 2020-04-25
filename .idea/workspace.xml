@@ -2,13 +2,111 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/at/va/games/firstgame/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/va/games/firstgame/Ellipse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/va/games/Snowflakes/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/va/games/Snowflakes/Snowflake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/va/games/Snowflakes/Snowflakes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/META-INF/Slick2DTemplate.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/va/games/firstgame/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/va/games/firstgame/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/va/games/firstgame/ObjectsGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/va/games/firstgame/ObjectsGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/va/games/firstgame/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/va/games/firstgame/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/va/games/firstgame/Rectangels.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/AlphaMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/AlphaMapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/AnimationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/AnimationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/AntiAliasTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/AntiAliasTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/BigImageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/BigImageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/BigSpriteSheetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/BigSpriteSheetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/CachedRenderTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/CachedRenderTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/CachedRenderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/CachedRenderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/CanvasContainerTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/CanvasContainerTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/CanvasContainerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/CanvasContainerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/CanvasSizeTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/CanvasSizeTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/CanvasSizeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/CanvasSizeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ClipTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ClipTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/CopyAreaAlphaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/CopyAreaAlphaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/CurveTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/CurveTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/DeferredLoadingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/DeferredLoadingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/DistanceFieldTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/DistanceFieldTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/DoubleClickTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/DoubleClickTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/DuplicateEmitterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/DuplicateEmitterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/FlashTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/FlashTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/FontPerformanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/FontPerformanceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/FontTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/FontTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/GUITest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/GUITest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/GUITest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/GUITest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/GUITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/GUITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/GeomAccuracyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/GeomAccuracyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/GeomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/GeomTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/GeomUtilTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/GeomUtilTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/GeomUtilTileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/GeomUtilTileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/GradientImageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/GradientImageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/GradientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/GradientTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/GraphicsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/GraphicsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ImageBufferEndianTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ImageBufferEndianTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ImageBufferTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ImageBufferTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ImageCornerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ImageCornerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ImageGraphicsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ImageGraphicsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ImageMemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ImageMemTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ImageOutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ImageOutTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ImageReadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ImageReadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ImageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ImageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/InkscapeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/InkscapeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/InputProviderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/InputProviderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/InputTest$Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/InputTest$Line.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/InputTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/InputTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/IsoTiledTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/IsoTiledTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/KeyRepeatTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/KeyRepeatTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/LameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/LameTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/LineRenderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/LineRenderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/MorphSVGTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/MorphSVGTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/MorphShapeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/MorphShapeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/MusicListenerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/MusicListenerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/NavMeshTest$DataMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/NavMeshTest$DataMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/NavMeshTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/NavMeshTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/PackedSheetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/PackedSheetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ParticleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ParticleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/PedigreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/PedigreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/PolygonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/PolygonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/PureFontTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/PureFontTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/SavedStateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/SavedStateTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ScalableTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ScalableTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ScalableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ScalableTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ShapeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/ShapeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/SlickCallableTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/SlickCallableTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/SlickCallableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/SlickCallableTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/SoundPositionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/SoundPositionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/SoundTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/SoundTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/SoundURLTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/SoundURLTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/SpriteSheetFontTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/SpriteSheetFontTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/StateBasedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/StateBasedTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TestBox$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TestBox$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TestBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TestBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TestUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TestUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TexturePaintTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TexturePaintTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TexturePaintTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TexturePaintTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TileMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TileMapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TransformTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TransformTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TransformTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TransformTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TransitionTest$ImageState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TransitionTest$ImageState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TransitionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TransitionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TransparentColorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TransparentColorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TrueTypeFontPerformanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/TrueTypeFontPerformanceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/UnicodeFontTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/UnicodeFontTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/states/TestState1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/states/TestState1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/states/TestState1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/states/TestState1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/states/TestState2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/states/TestState2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/states/TestState3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/states/TestState3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/xml/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/xml/Entity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/xml/GameData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/xml/GameData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/xml/Inventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/xml/Inventory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/xml/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/xml/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/xml/ItemContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/xml/ItemContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/xml/ObjectParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/xml/ObjectParserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/xml/Stats.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/xml/Stats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/xml/XMLTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/org/newdawn/slick/tests/xml/XMLTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/va/games/firstgame/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/va/games/firstGame/Actor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/va/games/firstgame/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/va/games/firstGame/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/va/games/firstgame/Ellipse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/va/games/firstGame/Ellipse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/va/games/firstgame/ObjectsGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/va/games/firstGame/ObjectsGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/va/games/firstgame/Rectangels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/va/games/firstGame/Rectangels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/va/games/firstgame/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/va/games/firstGame/Rectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,19 +136,31 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/at/va/games/firstGame" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.ObjectsGame">
-    <configuration name="GUITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.newdawn.slick.tests.GUITest" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="at.va.games" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="at.va.games.snowflakes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Vedran\Coding\Code\Java\Games\src\at\va\games\firstGame" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Snowflakes (1)">
+    <configuration name="ObjectsGame (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.va.games.firstGame.ObjectsGame" />
       <module name="Slick2DTemplate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.newdawn.slick.tests.*" />
+          <option name="PATTERN" value="at.va.games.firstGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,19 +174,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="at.va.games.firstgame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PolygonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.newdawn.slick.tests.PolygonTest" />
-      <module name="Slick2DTemplate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.newdawn.slick.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,13 +207,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Snowflakes (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.va.games.Snowflakes.Snowflakes" />
+      <module name="Slick2DTemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.va.games.Snowflakes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Snowflakes" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="snowflakes.Snowflakes" />
+      <module name="Slick2DTemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.va.games.Snowflakes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Snowflakes (1)" />
+        <item itemvalue="Application.ObjectsGame (1)" />
         <item itemvalue="Application.ObjectsGame" />
         <item itemvalue="Application.Rectangels" />
         <item itemvalue="Application.Rectangles" />
-        <item itemvalue="Application.PolygonTest" />
-        <item itemvalue="Application.GUITest" />
       </list>
     </recent_temporary>
   </component>
@@ -145,92 +268,122 @@
       <option name="project" value="LOCAL" />
       <updated>1587757364237</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added circle growth">
+      <created>1587803107075</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587803107075</updated>
+    </task>
+    <task id="LOCAL-00004" summary="optimized">
+      <created>1587803188156</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587803188156</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added Rectangle and Circle class" />
     <MESSAGE value="added random colour" />
-    <option name="LAST_COMMIT_MESSAGE" value="added random colour" />
+    <MESSAGE value="added circle growth" />
+    <MESSAGE value="optimized" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimized" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2930" y="455" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1587745651109">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state x="2930" y="455" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587745651109" />
-    <state x="3006" y="410" key="#com.intellij.ide.util.MemberChooser" timestamp="1587798527543">
+    <state x="3006" y="410" key="#com.intellij.ide.util.MemberChooser" timestamp="1587808266387">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="3006" y="410" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587798527543" />
+    <state x="3006" y="410" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587808266387" />
     <state x="1086" y="410" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1585321958895" />
-    <state x="2709" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587752686174">
+    <state x="2930" y="476" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1587809821708">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="2709" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587752686174" />
+    <state x="2930" y="476" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587809821708" />
+    <state x="2996" y="607" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1587809823096">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2996" y="607" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587809823096" />
+    <state x="2709" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587810420144">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2709" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587810420144" />
     <state x="1036" y="404" key="#xdebugger.evaluate" timestamp="1585339406554">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1036" y="404" key="#xdebugger.evaluate/0.0.2560.1400@0.0.2560.1400" timestamp="1585339406554" />
-    <state x="2827" y="268" key="CommitChangelistDialog2" timestamp="1587757363643">
+    <state x="2827" y="268" key="CommitChangelistDialog2" timestamp="1587803187386">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="2827" y="268" key="CommitChangelistDialog2/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587757363643" />
-    <state x="369" y="83" key="FileChooserDialogImpl" timestamp="1582964295956">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="2827" y="268" key="CommitChangelistDialog2/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587803187386" />
+    <state x="2658" y="171" key="FileChooserDialogImpl" timestamp="1587809799173">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state x="369" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582964295956" />
-    <state width="2517" height="142" key="GridCell.Tab.0.bottom" timestamp="1587802253661">
+    <state x="2658" y="171" key="FileChooserDialogImpl/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587809799173" />
+    <state width="2517" height="327" key="GridCell.Tab.0.bottom" timestamp="1587811907969">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582964309398" />
-    <state width="2517" height="142" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587802253661" />
+    <state width="2517" height="327" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587811907969" />
     <state width="2517" height="283" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1585384876138" />
-    <state width="2517" height="142" key="GridCell.Tab.0.center" timestamp="1587802253661">
+    <state width="2517" height="327" key="GridCell.Tab.0.center" timestamp="1587811907969">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582964309397" />
-    <state width="2517" height="142" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587802253661" />
+    <state width="2517" height="327" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587811907969" />
     <state width="2517" height="283" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1585384876138" />
-    <state width="2517" height="142" key="GridCell.Tab.0.left" timestamp="1587802253661">
+    <state width="2517" height="327" key="GridCell.Tab.0.left" timestamp="1587811907969">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582964309397" />
-    <state width="2517" height="142" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587802253661" />
+    <state width="2517" height="327" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587811907969" />
     <state width="2517" height="283" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1585384876138" />
-    <state width="2517" height="142" key="GridCell.Tab.0.right" timestamp="1587802253661">
+    <state width="2517" height="327" key="GridCell.Tab.0.right" timestamp="1587811907969">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582964309398" />
-    <state width="2517" height="142" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587802253661" />
+    <state width="2517" height="327" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587811907969" />
     <state width="2517" height="283" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1585384876138" />
-    <state width="2517" height="482" key="GridCell.Tab.1.bottom" timestamp="1587758918019">
+    <state width="2517" height="482" key="GridCell.Tab.1.bottom" timestamp="1587811093179">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="482" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587758918019" />
+    <state width="2517" height="482" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587811093179" />
     <state width="2517" height="483" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1585341946936" />
-    <state width="2517" height="482" key="GridCell.Tab.1.center" timestamp="1587758918019">
+    <state width="2517" height="482" key="GridCell.Tab.1.center" timestamp="1587811093179">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="482" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587758918019" />
+    <state width="2517" height="482" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587811093179" />
     <state width="2517" height="483" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1585341946936" />
-    <state width="2517" height="482" key="GridCell.Tab.1.left" timestamp="1587758918019">
+    <state width="2517" height="482" key="GridCell.Tab.1.left" timestamp="1587811093179">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="482" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587758918019" />
+    <state width="2517" height="482" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587811093179" />
     <state width="2517" height="483" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1585341946935" />
-    <state width="2517" height="482" key="GridCell.Tab.1.right" timestamp="1587758918019">
+    <state width="2517" height="482" key="GridCell.Tab.1.right" timestamp="1587811093179">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="482" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587758918019" />
+    <state width="2517" height="482" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587811093179" />
     <state width="2517" height="483" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1585341946936" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1582964302246">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="2204" y="0" key="SettingsEditor" timestamp="1587810544276">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1582964302246" />
-    <state x="2792" y="433" key="Vcs.Push.Dialog.v2" timestamp="1587757370551">
+    <state x="2204" y="0" key="SettingsEditor/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587810544276" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1587809897853">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="2792" y="433" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587757370551" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587809897853" />
+    <state x="2792" y="433" key="Vcs.Push.Dialog.v2" timestamp="1587803190155">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2792" y="433" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1587803190155" />
     <state x="2897" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1587410867948">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
@@ -251,6 +404,9 @@
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1585328555759" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Games$Snowflakes.ic" NAME="Snowflakes Coverage Results" MODIFIED="1587809175907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>at.va.games.snowflakes.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Games$Rectangels.ic" NAME="Rectangels Coverage Results" MODIFIED="1585334644541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>at.va.games.firstgame.*</FILTER>
     </SUITE>

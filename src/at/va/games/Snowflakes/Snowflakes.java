@@ -1,6 +1,5 @@
 package at.va.games.Snowflakes;
 
-import at.va.games.firstGame.ObjectsGame;
 import org.newdawn.slick.*;
 
 import java.util.ArrayList;
@@ -36,7 +35,6 @@ public class Snowflakes extends BasicGame {
         for (Actor actor : this.snowflakes) {
             actor.update(delta);
         }
-
     }
 
     @Override
@@ -51,6 +49,7 @@ public class Snowflakes extends BasicGame {
             AppGameContainer appGameContainer = new AppGameContainer(new Snowflakes("Snowflakes"));
             appGameContainer.setDisplayMode(800, 600, false);
             appGameContainer.start();
+            appGameContainer.setMusicOn(true);
         } catch (SlickException e) {
             e.printStackTrace();
         }

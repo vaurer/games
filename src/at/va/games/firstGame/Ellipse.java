@@ -1,6 +1,7 @@
 package at.va.games.firstGame;
 
 import org.newdawn.slick.Color;
+import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 
 import java.util.Random;
@@ -28,7 +29,7 @@ public class Ellipse implements Actor {
     }
 
     @Override
-    public void update(int delta) {
+    public void update(GameContainer gameContainer, int delta) {
         this.y -= (float) delta / this.speed;
         if (this.y < 0) {
             this.y = 1080;

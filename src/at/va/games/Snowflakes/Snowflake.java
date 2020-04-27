@@ -6,7 +6,6 @@ import org.newdawn.slick.Graphics;
 import java.util.Random;
 
 public class Snowflake implements Actor {
-    // private Random random;
 
     public enum SIZE {BIG, MEDIUM, SMALL}
 
@@ -42,10 +41,10 @@ public class Snowflake implements Actor {
     public void render(Graphics graphics) {
         graphics.fillOval(this.x, this.y, this.size, this.size);
         if (this.speed == 5) {
-            graphics.setColor(Color.gray);
-        } else  if (this.speed == 4){
             graphics.setColor(Color.darkGray);
-        } else  if (this.speed == 2){
+        } else if (this.speed == 4) {
+            graphics.setColor(Color.gray);
+        } else if (this.speed == 2) {
             graphics.setColor(Color.white);
         }
     }
@@ -57,6 +56,5 @@ public class Snowflake implements Actor {
             setRandomPosition();
         }
     }
-
-
 }
+

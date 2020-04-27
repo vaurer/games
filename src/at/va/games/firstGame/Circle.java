@@ -1,6 +1,7 @@
 package at.va.games.firstGame;
 
 import org.newdawn.slick.Color;
+import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 
 import java.util.Random;
@@ -27,12 +28,13 @@ public class Circle implements Actor {
         Color randomColor = new Color(r, g, b);
         graphics.setColor(randomColor);
         this.diameter++;
-        if (this.diameter > 600) {
+        if (this.diameter > 30) {
             this.diameter = 1;
         }
     }
 
-    public void update(int delta) {
+    @Override
+    public void update(GameContainer gameContainer, int delta) {
         this.y += (float) delta / this.speed;
         if (this.y > 1080) {
             this.y = 0;

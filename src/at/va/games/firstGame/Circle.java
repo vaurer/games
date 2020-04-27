@@ -3,12 +3,14 @@ package at.va.games.firstGame;
 import org.newdawn.slick.Color;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
+import org.newdawn.slick.geom.Shape;
 
 import java.util.Random;
 
 public class Circle implements Actor {
     private float x, y, speed;
     private int diameter;
+    private Shape collisionShape;
 
     public Circle() {
         Random random = new Random();
@@ -16,6 +18,7 @@ public class Circle implements Actor {
         this.y = random.nextInt(1080);
         this.speed = random.nextInt(40) + 10;
         this.diameter = random.nextInt(20) + 20;
+        this.collisionShape  = new org.newdawn.slick.geom.Circle(this.x,this.y, this.diameter/2);
     }
 
     public void render(Graphics graphics) {
@@ -39,5 +42,8 @@ public class Circle implements Actor {
         if (this.y > 1080) {
             this.y = 0;
         }
+    }
+    public Shape getCircleCollisionShape() {
+        return collisionShape;
     }
 }

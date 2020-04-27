@@ -20,26 +20,23 @@ public class ObjectsGame extends BasicGame {
         this.actors = new ArrayList<>();
         Random random = new Random();
 
-        for (int i = 0; i < 10; i++) {
-            Rectangle rectangle = new Rectangle(random.nextInt(1920), random.nextInt(1920), random.nextInt(50) + 5, Rectangle.DIRECTION.LEFT);
-            this.actors.add(rectangle);
-        }
-        for (int i = 0; i < 10; i++) {
-            Circle circle = new Circle();
-            this.actors.add(circle);
-        }
-        for (int i = 0; i < 10; i++) {
-            Ellipse ellipse = new Ellipse();
-            this.actors.add(ellipse);
-        }
-
-//        for (int i = 0; i < 10; i++) {
-//            Rocket rocket = new Rocket();
-//            this.actors.add(rocket);
-//        }
         Rocket rocket = new Rocket();
         this.rocket = rocket;
         this.actors.add(rocket);
+
+        for (int i = 0; i < 3; i++) {
+            Rectangle rectangle = new Rectangle(random.nextInt(1920), random.nextInt(1920), random.nextInt(50) + 5, Rectangle.DIRECTION.LEFT);
+            this.actors.add(rectangle);
+        }
+        for (int i = 0; i < 5; i++) {
+            Circle circle = new Circle();
+            this.actors.add(circle);
+            this.rocket.addCollisionPartners(circle);
+        }
+        for (int i = 0; i < 3; i++) {
+            Ellipse ellipse = new Ellipse();
+            this.actors.add(ellipse);
+        }
 
     }
 
@@ -56,7 +53,11 @@ public class ObjectsGame extends BasicGame {
     @Override
     public void update(GameContainer gameContainer, int delta) throws SlickException {
         for (Actor actor : this.actors) {
-            actor.update(gameContainer, delta);
+            try {
+                actor.update(gameContainer, delta);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 

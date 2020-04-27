@@ -7,5 +7,5 @@ import org.newdawn.slick.SlickException;
 public interface Actor {
     public void render(Graphics graphics); //must be public
 
-    public void update(GameContainer gameContainer, int delta) throws SlickException;
+    public void update(GameContainer gameContainer, int delta) throws SlickException, InterruptedException;
 }

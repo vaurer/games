@@ -38,7 +38,6 @@ public class Rocket implements Actor {
     @Override
     public void update(GameContainer gameContainer, int delta) throws SlickException, InterruptedException {
         for(Circle circle:circles){
-
             if(this.rocketCollisionShape.intersects(circle.getCircleCollisionShape())){
                 System.out.println("Collision " + counter);
                 counter++;
